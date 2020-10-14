@@ -1,0 +1,24 @@
+{
+  "name": "NExpress-Handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhnguyendon92/NExpress-Handlebars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anhnguyendon92/NExpress-Handlebars/issues"
+  },
+  "homepage": "https://github.com/anhnguyendon92/NExpress-Handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  }
+}
