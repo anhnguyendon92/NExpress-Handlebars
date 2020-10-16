@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/anhnguyendon92/NExpress-Handlebars#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0"
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
   }
 }
