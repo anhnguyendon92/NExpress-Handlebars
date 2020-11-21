@@ -55,7 +55,7 @@ Before installing this application on yopur local computer, ensure that you have
 
     3. Navigate to the repository folder and run server.js to start
         $ node server.js
-    4. Navigate to localhost:3307 in the browser
+    4. Navigate to localhost:3306 in the browser
 
     5. Add burgers to the New Burgers List, Devour them and delete once you are done enjoying the burger!
 
