@@ -5,7 +5,7 @@ var exphbs = require("express-handlebars");
 var app = express();
 
 
-var PORT = process.env.PORT || 3306;
+var PORT = process.env.PORT || 3200;
 
 app.use(express.static("public"));
 
@@ -20,5 +20,5 @@ var routes = require("./controllers/burgers_controller.js");
 app.use(routes);
 
 app.listen(PORT, () => {
-  console.log('Listening on :' + PORT);
+  console.log('Listening on PORT:' + PORT);
 });

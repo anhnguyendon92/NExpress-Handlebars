@@ -1,12 +1,5 @@
-DROP DATABASE IF EXISTS burgers_db;
-
-CREATE DATABASE burgers_db;
-
 USE burgers_db;
 
-CREATE TABLE burgers (
-    id INT NOT NULL AUTO_INCREMENT,
-    burger_name VARCHAR(30),
-    devoured BOOLEAN DEFAULT false,
-    PRIMARY KEY (id)
-);
+INSERT INTO burgers (burger_name, devoured) VALUES ('CHEESEBURGER', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('HAMBURGER', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('CHICKEN BURGER', false);
