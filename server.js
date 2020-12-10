@@ -5,7 +5,7 @@ var exphbs = require("express-handlebars");
 var app = express();
 
 
-var PORT = process.env.PORT || 3306;
+var PORT = process.env.PORT || 3307;
 
 app.use(express.static("public"));
 
